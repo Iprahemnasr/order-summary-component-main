@@ -1,0 +1,116 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px;
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+  height: 520px;
+}
+
+.card .hero {
+  width: 330px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px
+}
+
+.h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%)
+}
+
+.lorem {
+  line-height: 2;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  margin: auto;
+  font-weight: 700
+}
+
+@media (min-width:320px) {
+  body {
+    background: url(../images/pattern-background-mobile.svg) no-repeat;
+      background-color: hsl(225, 100%, 94%);
+  }
+@media (min-width:414px) {
+  body {
+    background: url(../images/pattern-background-desktop.svg)no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+}
+
+  .plan {
+    background: hsl(225, 100%, 98%);
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    display: flex;
+    text-align: center
+  }
+
+  .plan img {
+    width: 50px;
+    margin: auto
+  }
+
+  .plan .change {
+    color: hsl(245, 75%, 52%);
+    margin: auto;
+    font-weight: 700;
+    text-decoration: underline
+  }
+
+  .nameplan {
+    margin: auto 15px auto 0;
+
+  }
+
+  .name_plan {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin: 5px
+  }
+
+  .price {
+    color: hsl(224, 23%, 55%);
+
+  }
+
+  .Proceed {
+    padding: 15px;
+    margin: 15px auto;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px hsl(245, 75%, 52%);
+    width: 280px
+  }
+
+  .Cancel {
+    color: hsl(223, 47%, 23%);
+    padding: 15px;
+    margin: 15px
+  }
+
+  .Cancel:hover {
+    color: darkred;
+  }
