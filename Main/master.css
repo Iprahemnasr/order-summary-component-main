@@ -22,7 +22,7 @@ body {
   overflow: hidden;
   text-align: center;
   width: 300px;
-  height: 520px;
+  height: 540px;
 }
 
 .card .hero {
@@ -50,13 +50,17 @@ body {
     background: url(../images/pattern-background-mobile.svg) no-repeat;
       background-color: hsl(225, 100%, 94%);
   }
+}
 @media (min-width:414px) {
   body {
     background: url(../images/pattern-background-desktop.svg)no-repeat;
     background-color: hsl(225, 100%, 94%);
   }
 }
-
+@media (min-width:1900px){
+   body{background: url(../images/pattern-background-desktop.svg)repeat-x;
+   background-color: hsl(225, 100%, 94%);}
+}
   .plan {
     background: hsl(225, 100%, 98%);
     margin: 15px auto;
@@ -108,9 +112,9 @@ body {
   .Cancel {
     color: hsl(223, 47%, 23%);
     padding: 15px;
-    margin: 15px
+    margin: auto;
+    text-align: center
   }
-
-  .Cancel:hover {
-    color: darkred;
+  .Cancel:hover{
+    color:#434992
   }
